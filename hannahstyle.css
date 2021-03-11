@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
+    
+}
+.iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+
+body {background-color:white;
+font-family: 'Lato', sans-serif;
+    font-size:15px;
+      letter-spacing: .15px;
+    line-height: 1.3;
+    
+    }
+body h1 {font-size:25px;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+font-style: italic;
+padding-bottom: 5px;
+}
+
+p {
+padding-bottom: 7px;
+}
+.main {padding-top:23%;
+}
+
+
+nav{
+  position:fixed;
+    text-align: center;
+    background-color: white;
+    padding-top:20px;
+}
+#Logo{
+  transition: all 0.3s;
+  margin-left:auto;
+  margin-right:auto;
+}
+.largeLogo{width: 60%;}
+.smallLogo{width: 20%;}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 396px;
+	list-style: none;
+	padding-bottom: 7px;
+    padding-top: 14px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+ul#horizontal-list a {
+		color: black;
+    text-decoration: none;
+    padding: 3%;
+    font-size: 15px;
+	}
+ul#horizontal-list a:hover {
+		color:darkgreen;
+	}
+
+.colorstrip{
+         display: flex;
+    flex: auto;
+  align-items: center;
+width:100%
+    margin-left: auto;
+margin-right: auto;
+    height: 300px;
+    background-color: #F2F6F7;
+}
+
+.txt {flex: 80%; text-align: center;
+padding-right:10%;}
+
+.babyfeet{
+}
+.babyfeet img {width:100%;
+height: auto;}
+
+.flowerpic {flex: 20%;
+padding-left:20px;}
+.flowerpic img {max-width:70%;}
+
+.contact {
+    padding:40px;
+  margin-left:auto;
+  margin-right:auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+    max-width: 300px;
+    max-height: 350px;
+    display: flex;
+display: table;}
+
+.contactimage {}
+.contactimage img {max-height:200px;}
+.contactinfo {
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;}
+
+.aboutcontainer {display: grid;
+    grid-template-columns: 40% 60%;
+    grid-row-gap: 20px;
+    max-width: 800px;
+      margin-left:auto;
+  margin-right:auto;
+        margin-top: 50px;
+}
+.abouttext {padding-left:20px;}
+.aboutphoto {}
+.aboutphoto img{width:100%}
+
+
+.mainwrapper {
+    margin-top:60px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:60px;
+    max-width:800px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 40% 60%;
+  }
+
+
+  .indexpic {
+    grid-column: 1;
+    grid-row: 1 ;
+    max-height: 600px;
+
+  }
+.indexpic img {width:100%;}
+  .indexbio {
+    grid-column: 2 ;
+    grid-row: 1;
+      background-color: #F2F6F7;
+      padding:20px;
+  }
+
+.creditwrapper {
+     display: flex;
+  align-items: center;
+    margin-bottom:100px;
+    max-width:800px;
+margin-left: auto;
+margin-right: auto;}
+
+.credittext {margin-left:30px;
+}
+
+.credittext p {font-size:16px;
+font-style: italic;
+}
+
+.creditlogo {max-width: 100px;}
+.creditlogo img {width: 100%}

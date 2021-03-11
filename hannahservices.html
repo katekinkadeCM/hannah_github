@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+        
+<head>
+  <link href="hannahstyle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+<nav class="navbar navbar-inverse navbar-toggleable-md fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+    <img src="img/REPLACEMEname.jpg" class="largeLogo" id="Logo">
+    </a>
+        <div class="table">
+    <ul id="horizontal-list">
+    <div class="collapse navbar-collapse" id="navbarDiv">
+      <ul id="horizontal-list">
+        <li class="nav-item">
+          <a class="nav-link" href="hannahindex.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hannahabout.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hannahservices.html">Services</a>
+         <a class="nav-link" href="hannahcontact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+            <div class="main">
+                
+                
+       <div class="babyfeet">
+     <img src="img/hospitalbaby.jpg"></div>
+
+                
+                   
+                
+    <script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+var Logo = document.getElementById("Logo");
+var endOfDocumentTop = 80;
+var size = 0;
+
+function growShrinkLogo() {
+var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+  if (size == 0 && scroll > endOfDocumentTop) {
+    Logo.className = 'smallLogo';
+    size = 1;
+  } else if(size == 1 && scroll <= endOfDocumentTop){
+    Logo.className = 'largeLogo';
+   size = 0;
+  }
+}
+
+    </script>
+</body>
+    
+    
+      

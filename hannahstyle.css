@@ -70,14 +70,36 @@ font-family: 'Lato', sans-serif;
     line-height: 1.3;
     
     }
-body h1 {font-size:25px;
+
+.indexbio h1 {font-size:24px;
+    letter-spacing: 1px;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+font-style: italic;
+padding-bottom: 10px;}
+
+body h1 {font-size:20px;
+    letter-spacing: 1px;
 font-family: 'Playfair Display', serif;
 font-weight: 300;
 font-style: italic;
 padding-bottom: 5px;
 }
 
-p {
+h3 {font-size:20px;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-style: italic;
+padding-bottom: 15px;}
+
+body h6 {font-size:30px;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+    letter-spacing: 1px;
+padding-bottom: 5px;
+}
+
+body p {
 padding-bottom: 7px;
 }
 .main {padding-top:23%;
@@ -129,7 +151,7 @@ ul#horizontal-list a:hover {
 width:100%
     margin-left: auto;
 margin-right: auto;
-    height: 300px;
+    height: 500px;
     background-color: #F2F6F7;
 }
 
@@ -201,8 +223,9 @@ display: table;}
   .indexbio {
     grid-column: 2 ;
     grid-row: 1;
-      background-color: #F2F6F7;
-      padding:20px;
+      background-color:;
+      padding-left:20px;
+         padding-right:20px;
   }
 
 .creditwrapper {
@@ -222,3 +245,26 @@ font-style: italic;
 
 .creditlogo {max-width: 100px;}
 .creditlogo img {width: 100%}
+
+.services {margin-top: 60px;
+display: flex;
+width: 100%;
+margin-left: auto;
+margin-right: auto;}
+.servicesleft {flex: 1;}
+.servicesleft img {width: 100%;}
+.servicesright {flex: 1;
+    padding-left: 60px;
+    padding-right: 60px;}
+
+
+.introwrapper {display: flex;
+max-width: 900px;
+margin-left:auto;
+margin-right: auto;
+padding-top:4%;
+padding-bottom:50px;}
+.introright {flex:50%; padding-left:20px;}
+.introright img{width:100%; height:100%}
+.introleft {flex:50%; padding-right:20px;}
+.introleft img{width:100%; height:100%}}

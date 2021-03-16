@@ -4,7 +4,7 @@
 <head>
   <link href="hannahstyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -46,27 +46,75 @@
      <img src="img/pregnant.jpg"></div>
     <div class="servicesright">
    <h6>Services</h6>
-        <h1>Services/rates/specialties?</h1>
-<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-
-<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.<p>
-
-<h1>More stuff</h1>
-<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-
-<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.<p>
         
-        
-<h1>More stuff</h1>
-<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-     
-      <p>$0000 starting per ABCDE</p>
+I encourage you to reach out and schedule an initial consultation, free of charge and commitment, to help you decide if we are a sure fit in working together during this amazing time. During this session, we can openly interview one another and begin to answer the questions you may have. 
+
+        <div class="servicesstrip">
+            <h1>Prenatal:</h1> </div>
+       <ul id="services">
+           <li><span style="font-weight: 700">Two (2) </span>virtual or in-home prenatal meetings. Includes preparation for birth, evidence-based resources, positive affirmations, and comfort measure practice for labor. </li>
+            <li>Mindful inclusion of your birth partner and/or labor support team </li>
+            <li>Available for you as soon as you hire me for phone/email support - an open channel of communication and relationship-building is a priority! </li></ul>
+           
+        <div class="servicesstrip">
+	<h1>Birth:</div></h1>
+               <ul id="services">
+                   <li>On-call 24/7 beginning at <span style="font-weight: 700">38 weeks </li></span>
+<li>Customized, continuous labor support (virtually, at-home, and/or at the birthing location) </li>
+<li>Will remain by your side for up to two hours in the immediate postpartum period, until you and your family are happily settled  </li>
+      <div class="servicesstrip">
+<h1>Postpartum:</h1></div>
+           <ul id="services">            
+               <li>One visit within two weeks of your birth to check in on you and baby, help hold space and process the experience, and provide any referrals/resources </li><br>
+
+<h1>Package cost: $650 </h1></ul></div>
+
      
      </div>
 </div>
                 
                    
-                
+   
+ <div class="footer-clean">
+     <div class="footerwrapper">
+            <div class="footerflex">
+                <div class="flowerpic">
+                <img src="img/3.png"></div>
+              <div class="footerlinks">
+                     <h3>Links</h3>
+     <p>
+        <a href="hannahabout.html">About me</a></p>
+
+    <p><a href="hannahservices.html">Services</a></p>
+    <p><a href="hannahcontact.html">Contact</a></p>
+                    </div>
+                    <div class="footercontact">
+                        <h3>Get in touch:</h3>
+                         <ul><li>Hannah Sackett</p>
+<li>she/her/hers</li>
+<li>612-750-7961</li>
+                              <li><a href="mailto:hannahsackettdoula@gmail.com">hannahsackettdoula@gmail.com</a></li>
+                        </ul>
+                    </div>
+            <div class="flowerpic1">
+                <img src="img/3.png"></div>
+            </div>
+            <hr>
+            <div class="footerquote">
+            <p>Truly, we live with mysteries too marvelous to be understood... Let me keep company always with those who say, “Look!” and laugh in astonishment, and bow their heads.</p>
+                <p>—Mary Oliver</p>
+                <p> (Evidence: Poems by Mary Oliver)</p>
+</p></div>
+                    <div class="copyright">
+                        <p class="copyright">Hannah Sackett © 2021</p></div
+            </div>
+            </div>
+    </div>  
+      
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        
     <script>
 window.onscroll = function() {
   growShrinkLogo()
@@ -87,9 +135,61 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
    size = 0;
   }
 }
-
     </script>
+
+        
+        <script>(function($) {
+
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+})(jQuery);
+
+var win = $(window);
+
+var allMods = $(".module");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
+  
+});</script>
+
 </body>
     
     
-      

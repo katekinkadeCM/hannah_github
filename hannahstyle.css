@@ -55,7 +55,7 @@ font-family: 'Lato', sans-serif;
     font-weight: 300;
       letter-spacing: .19px;
     line-height: 1.4;
-    background-color:white;
+    background-color: #F2F1ED;
     }
 
 .indexbio h1 {font-size:24px;
@@ -98,30 +98,28 @@ margin-bottom: 10px;
  h9 {font-size:17px;
 font-family: 'lato', sans-serif;
 font-weight: 200;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.15px;
 margin-bottom: 10px;
-     line-height: 20px;
+     line-height: 25px;
 }
 
 body p {
-padding-bottom: 15px;
+padding-bottom: 17px;
 }
 .main {padding-top:23%;
     width:80%;
     margin-left:auto;
     margin-right:auto;
-    background-color:white;
 }
 
 
 nav{
   position:fixed;
     text-align: center;
-    background-color: white;
     padding-top:20px;
     width:100%;
          z-index: 9999;
-}
+    background: rgba(242, 241, 237, .92)}
 #Logo{
   transition: all 0.3s;
   margin-left:auto;
@@ -139,8 +137,9 @@ ul#horizontal-list {
 	min-width: 300px;
 	list-style: none;
 	padding-bottom: 7px;
-    padding-top: 14px;
+    padding-top: 4px;
 	}
+
 	ul#horizontal-list li {
 		display: inline;
 	}
@@ -153,7 +152,7 @@ ul#horizontal-list a {
 	}
 
 ul#horizontal-list a:hover {
-		color:mediumseagreen;
+		color:#C7D0D5;
 	}
 
 a {
@@ -163,7 +162,7 @@ a {
 	}
 
 a:hover {
-		color:mediumseagreen;
+		color:#C7D0D5;
 	}
 
 .doulapic img {width: 100%}
@@ -199,8 +198,11 @@ height: auto;}
     display: flex;
 display: table;}
 
+.contact > div {2%}
+
 .contactimage {}
-.contactimage img {max-height:200px;}
+.contactimage img {max-height:200px;
+padding-right:20px;}
 .contactinfo {
   height: 100%;
   width: 100%;
@@ -242,15 +244,15 @@ display: table;}
     {flex-direction: column;}}
 
   .indexpic {
-flex:40%;
+flex:50%;
     max-height: 100%;}
 .indexpic img {width:100%;}
   .indexbio {
-flex:60%;
+flex:50%;
   }
 
 .creditwrapper {
-    margin-bottom:100px;
+    margin-bottom:180px;
     margin-top:-40px;
     max-width:800px;
     margin-left: auto;
@@ -272,7 +274,7 @@ ul#services li {padding:5px;}
 width:100%;
     margin-left: auto;
 margin-right: auto;
-    background-color: #F2F6F7;
+    background-color: #ebe2d5;
     padding:0px;
     margin-top:30px;
     padding-left:15px;
@@ -288,7 +290,7 @@ display: flex;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-padding-bottom:60px;}
+padding-bottom:170px;}
 .servicesleft {flex: 1;}
 .servicesleft img {width: 100%;}
 .servicesright {flex: 1;}
@@ -374,8 +376,15 @@ padding-bottom:50px;}
     display: flex;
     margin-left: auto;
     margin-right: auto;
-  background-color:#F2F6F7;
+  background-color: #C7D0D5;
 }
+
+hr {
+    background: #5e5a54;
+    height: 1px;
+    border: 0px;
+    opacity: 0.5
+   }
 
 .footerwrapper {
     align-content: center;
@@ -410,17 +419,23 @@ padding-bottom:40px;
     margin-left:0px;
     text-align: center}
 .footerlinks 
-    {padding-bottom:20px;}
+    {padding-bottom:10px;}
     .footercontact {flex:1}}
 
 
 .footerlinks {flex:2;}
+.footerlinks a {    color: #5e5a54;}
 .footercontact {flex:3}
-.footerquote {padding-top:30px}
+.footerquote {padding-top:30px;
+max-width: 700px;
+margin-left:auto;
+margin-right:auto;}
 .footerquote p {font-style: italic;
-font-size:12px;
-    text-align: center;}
+font-size:15px;
+    text-align: center;
+letter-spacing: 1.1px;}
 
+.footer-clean {color: #5e5a54}
 .footer-clean h3 {
   margin-top:0;
   margin-bottom:-10px;
@@ -437,13 +452,13 @@ font-size:12px;
 }
 
 .footer-clean ul a {
-  color:inherit;
-  text-decoration:none;
+    color: #5e5a54;
+    text-decoration:none;
   opacity:0.8;
 }
 
 .footer-clean ul a:hover {
-  color:mediumseagreen
+  color:black
 }
 
 
@@ -468,7 +483,7 @@ font-size:12px;
     width:100%;
     margin-left: auto;
 margin-right: auto;
-    background-color: #F2F6F7;
+    background-color: #ebe2d5;
         max-width: 800px;
     margin-bottom:50px;
   &:nth-child(even) {

@@ -230,7 +230,7 @@ padding-right:20px;}
     margin-left: auto;
     margin-right:auto;
     margin-bottom:60px;
-    max-width:900px;
+    max-width:950px;
     display: flex;
 }
 
@@ -286,6 +286,7 @@ margin-right: auto;
 
 
 .services {margin-top: 60px;
+    max-width:1000px;
 display: flex;
 width: 100%;
 margin-left: auto;
@@ -364,7 +365,7 @@ margin-right: auto;}
 max-width: 900px;
 margin-left:auto;
 margin-right: auto;
-padding-bottom:100px;}
+padding-bottom:90px;}
 .introright0 {flex:50%;}
 .introleft0 {flex:50%;}
 

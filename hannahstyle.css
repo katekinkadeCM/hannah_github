@@ -230,12 +230,12 @@ padding-right:20px;}
     margin-left: auto;
     margin-right:auto;
     margin-bottom:60px;
-    max-width:800px;
+    max-width:900px;
     display: flex;
 }
 
 .mainwrapper > div {
-  margin: 3%;
+  margin: 2%;
 }
 
 
@@ -244,7 +244,7 @@ padding-right:20px;}
     {flex-direction: column;}}
 
   .indexpic {
-flex:50%;
+flex:40%;
     max-height: 100%;}
 .indexpic img {width:100%;}
   .indexbio {
@@ -253,8 +253,8 @@ flex:50%;
 
 .creditwrapper {
     margin-bottom:180px;
-    margin-top:-40px;
-    max-width:800px;
+    margin-top:0px;
+    max-width:868px;
     margin-left: auto;
     margin-right: auto;}
 
@@ -291,9 +291,9 @@ width: 100%;
 margin-left: auto;
 margin-right: auto;
 padding-bottom:170px;}
-.servicesleft {flex: 1;}
+.servicesleft {flex: .9;}
 .servicesleft img {width: 100%;}
-.servicesright {flex: 1;}
+.servicesright {flex: 1.05;}
 
 .services a {font-style: italic;}
 
@@ -364,7 +364,7 @@ margin-right: auto;}
 max-width: 900px;
 margin-left:auto;
 margin-right: auto;
-padding-bottom:50px;}
+padding-bottom:100px;}
 .introright0 {flex:50%;}
 .introleft0 {flex:50%;}
 

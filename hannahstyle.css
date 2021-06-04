@@ -244,11 +244,11 @@ padding-right:20px;}
     {flex-direction: column;}}
 
   .indexpic {
-flex:40%;
+flex:50%;
     max-height: 100%;}
 .indexpic img {width:100%;}
   .indexbio {
-flex:50%;
+flex:60%;
   }
 
 .creditwrapper {
